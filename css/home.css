@@ -1,16 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 body{
     background-color: #eee;
 }
 .home-wrap{
     width: 860px;
-    height: 1000px;
+    min-height: 700px;
     margin: 20px auto;
     background-color: #fff;
     box-shadow: 0 0 5px #828282;
+    border-radius: 4px;
+    padding: 20px;
 }
 .title-list{
     position: fixed;
@@ -20,6 +24,10 @@ body{
     height: 500px;
     margin-left: -605px;
     background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .title-ul{
     list-style: none;
@@ -37,6 +45,40 @@ body{
     cursor: pointer;
 }
 .title-ul .active{
-    background-color: orange;
+    background-color: #0905e2;
     color: #fff;
+}
+.content{
+    overflow: hidden;
+}
+.c-ul{
+    list-style: none;
+}
+.c-ul li{
+    display: none;
+}
+.c-ul .active{
+    display: block;
+}
+.codes{
+    font-size: 12px;
+    color: red;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px auto 20px;
+    text-align: center;
+}
+.title-mini{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.title-middle{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+p{
+    line-height: 1.6;
 }
