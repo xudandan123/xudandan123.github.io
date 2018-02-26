@@ -4,30 +4,43 @@
     box-sizing: border-box;
     font-size: 14px;
 }
-body{
-    background-color: #eee;
-}
+/*body{*/
+    /*background-color: #eee;*/
+/*}*/
 .home-wrap{
-    width: 860px;
-    min-height: 700px;
-    margin: 20px auto;
-    background-color: #e9fffa;
-    box-shadow: 0 0 5px #828282;
-    border-radius: 4px;
-    padding: 20px;
+    /*width: 860px;*/
+    /*min-height: 700px;*/
+    /*margin: 20px auto;*/
+    /*background-color: #e9fffa;*/
+    /*box-shadow: 0 0 5px #828282;*/
+    /*border-radius: 4px;*/
+    /*padding: 20px;*/
+}
+.page-headers{
+    height: 60px;
+    background-color: #2b3643;
+}
+.page-header>div{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 60px;
+    font-size: 20px;
+    color: #eee;
 }
 .title-list{
     position: fixed;
     left: 50%;
-    top: 100px;
-    width: 175px;
-    height: 500px;
+    top: 80px;
+    width: 225px;
+    height: 600px;
     margin-left: -605px;
-    background-color: #ddd;
+    /*background-color: #ddd;*/
     border-radius: 4px;
+    box-shadow: 0 0 5px #f38b1f;
     overflow: hidden;
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: rgba(255, 149, 32, 0.12);
 }
 .title-ul{
     list-style: none;
@@ -37,7 +50,7 @@ body{
     width: 100%;
     padding: 6px 12px;
     font-size: 15px;
-    height: 32px;
+    height: 36px;
     display:block;
     white-space:nowrap;
     overflow:hidden;
@@ -45,11 +58,20 @@ body{
     cursor: pointer;
 }
 .title-ul .active{
-    background-color: #0905e2;
-    color: #fff;
+    background-color: #f38b1f;
+    color: #eee;
 }
 .content{
+    width: 960px;
+    min-height: 700px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px #f38b1f;
+    border-radius: 4px;
+    padding: 20px;
+    /*background-color: rgba(255, 149, 32, 0.12);*/
     overflow: hidden;
+    position: relative;
+    left: 101px;
 }
 .c-ul{
     list-style: none;
@@ -81,4 +103,42 @@ body{
 }
 p{
     line-height: 2;
+}
+.icon-jiajianzujianjiahao{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ffe9c5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #d26e20;
+    cursor: pointer;
+}
+.sunText{
+    width: 1000px;
+    height: auto;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    margin-left: -400px;
+    z-index: 10;
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    display: none;
+}
+.sunText .saves{
+    width: 120px;
+    height: 32px;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    background-color: #4348ff;
+    color: #eeeeee;
+    border: none;
+    font-size: 16px;
+    margin: 0 auto;
 }
