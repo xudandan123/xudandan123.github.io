@@ -11,7 +11,7 @@ body{
     width: 860px;
     min-height: 700px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #e9fffa;
     box-shadow: 0 0 5px #828282;
     border-radius: 4px;
     padding: 20px;
@@ -80,5 +80,5 @@ body{
     margin: 10px 0;
 }
 p{
-    line-height: 1.6;
+    line-height: 2;
 }
